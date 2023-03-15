@@ -1,4 +1,27 @@
+<p align="center">
+  <img src="https://pbs.twimg.com/profile_images/1143875559195316224/uZCilKE3_400x400.jpg" width="200" height="200" alt="42 logo">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OS-Linux-blue" alt="OS">
+    <img src="https://img.shields.io/badge/Language-C%20%7C%20C%2B%2B-orange.svg" alt="Language">
+    <img src="https://img.shields.io/badge/Status-Incomplete-red.svg" alt="Status">
+</p>
+
 # Labs 4º Edição
+
+**Obs:** This repository is in portuguese, because it was made for a brazilian school, [42 São Paulo](https://www.42sp.org.br/).
+
+## Índice
+
+- [Desafio](#desafio)
+- [Algoritmo de Huffman em C](#algoritmo-de-huffman-em-c)
+- [Funcionamento](#funcionamento)
+- [Benefícios](#benefícios)
+- [Utilização](#utilização)
+- [Instalação](#instalação)
+- [Como usar](#como-usar)
+- [Sobre o projeto](#sobre-o-projeto)
 
 ## Desafio
 
@@ -66,7 +89,7 @@ Para usar o programa de compactação, use o seguinte comando:
 
 ## Sobre o projeto
 
-### Este projeto foi construído em sete etapas:
+### Este projeto foi construído em sete etapas
 
 - **Fase 1 - Estudo:**
 Neste passo, é realizada uma pesquisa para compreender o objetivo do projeto, os desafios enfrentados e as habilidades necessárias para completar a tarefa.
