@@ -82,10 +82,21 @@ Espero que essa informação adicional ajude a esclarecer o propósito e aplica�
 
 Para usar o programa de compactação, use o seguinte comando:
 
-```bash
-./encoder <arquivo de entrada>
-./decoder
-```
+- Encoder:
+
+   O encoder recebe um arquivo de texto como argumento e compacta o arquivo.
+
+   ```bash
+   ./encoder <file>
+   ```
+
+- Decoder:
+
+   O decoder só funciona se o encoder tiver sido executado antes, pois ele precisa do arquivo compactado gerado pelo encoder.
+
+   ```bash
+   ./decoder
+   ```
 
 ## Sobre o projeto
 
