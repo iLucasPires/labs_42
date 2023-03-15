@@ -15,12 +15,12 @@
 ## Índice
 
 - [Desafio](#desafio)
-- [Algoritmo de Huffman em C](#algoritmo-de-huffman-em-c)
 - [Funcionamento](#funcionamento)
 - [Benefícios](#benefícios)
 - [Utilização](#utilização)
-- [Instalação](#instalação)
 - [Como usar](#como-usar)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Instalação](#instalação)
 - [Sobre o projeto](#sobre-o-projeto)
 
 ## Desafio
@@ -58,14 +58,23 @@ Transmissão de dados: para aumentar a velocidade de transmissão de dados em re
 Armazenamento de dados: para aumentar a eficiência do armazenamento em dispositivos de armazenamento.
 Espero que essa informação adicional ajude a esclarecer o propósito e aplicações do projeto de algoritmo de Huffman em C. Se você tiver alguma outra dúvida, estou sempre aqui para ajudar.
 
-## Instalação
+## Como usar
+
+### Pré-requisitos
+
+- [GCC](https://gcc.gnu.org/)
+- [GNU Make](https://www.gnu.org/software/make/)
+
+**Nota:** O programa foi testado no Ubuntu 20.04.2 LTS.
+
+### Instalação
 
 1. Clone este repositório para sua máquina:
 
-2. Entre na pasta 42Labs:
+2. Entre na pasta do projeto:
 
    ```bash
-   cd 42Labs
+   cd <path-to-project>
    ```
 
 3. Compile o código com o comando:
@@ -74,25 +83,23 @@ Espero que essa informação adicional ajude a esclarecer o propósito e aplica�
    make
    ```
 
-## Como usar
+4. Para usar o programa de compactação, use o seguinte comando:
 
-Para usar o programa de compactação, use o seguinte comando:
+   - Encoder:
 
-- Encoder:
+      O encoder recebe um arquivo de texto como argumento e compacta o arquivo.
 
-   O encoder recebe um arquivo de texto como argumento e compacta o arquivo.
+      ```bash
+      ./encoder <file>
+      ```
 
-   ```bash
-   ./encoder <file>
-   ```
+   - Decoder:
 
-- Decoder:
+      O decoder só funciona se o encoder tiver sido executado antes, pois ele precisa do arquivo compactado gerado pelo encoder.
 
-   O decoder só funciona se o encoder tiver sido executado antes, pois ele precisa do arquivo compactado gerado pelo encoder.
-
-   ```bash
-   ./decoder
-   ```
+      ```bash
+      ./decoder
+      ```
 
 ## Sobre o projeto
 
