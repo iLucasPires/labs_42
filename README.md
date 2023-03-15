@@ -38,10 +38,6 @@ A linguagem C será utilizada para o desenvolvimento e não há bibliotecas exte
 - [ ] rebeber múltiplos arquivos de texto.
 - [ ] melhorar a eficiência do algoritmo de Huffman.
 
-## Algoritmo de Huffman em C
-
-Este repositório contém uma implementação do algoritmo de Huffman em C para compactação de dados.
-
 ## Funcionamento
 
 O algoritmo de Huffman funciona através da criação de uma árvore binária com base nas frequências de ocorrência dos símbolos da mensagem a ser compactada. Cada símbolo é representado por um nó na árvore, e os caminhos até cada símbolo são utilizados como códigos de compressão. Os símbolos com maior frequência de ocorrência ficam mais próximos da raiz da árvore, enquanto os símbolos com menor frequência ficam mais distantes. Dessa forma, os códigos dos símbolos mais frequentes tendem a ser mais curtos, o que resulta em uma compressão mais eficiente.
@@ -75,7 +71,7 @@ Espero que essa informação adicional ajude a esclarecer o propósito e aplica�
 3. Compile o código com o comando:
 
    ```bash
-      make
+   make
    ```
 
 ## Como usar
