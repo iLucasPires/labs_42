@@ -15,7 +15,7 @@ A linguagem C será utilizada para o desenvolvimento e não há bibliotecas exte
 - [ ] rebeber múltiplos arquivos de texto.
 - [ ] melhorar a eficiência do algoritmo de Huffman.
 
-# Algoritmo de Huffman em C
+## Algoritmo de Huffman em C
 
 Este repositório contém uma implementação do algoritmo de Huffman em C para compactação de dados.
 
@@ -43,18 +43,17 @@ Espero que essa informação adicional ajude a esclarecer o propósito e aplica�
 
 1. Clone este repositório para sua máquina:
 
-
 2. Entre na pasta 42Labs:
 
-```bash
-cd 42Labs/
-```
+   ```bash
+   cd 42Labs
+   ```
 
 3. Compile o código com o comando:
 
-```bash
-make
-```
+   ```bash
+      make
+   ```
 
 ## Como usar
 
@@ -70,11 +69,11 @@ Para usar o programa de compactação, use o seguinte comando:
 ### Este projeto foi construído em sete etapas:
 
 - **Fase 1 - Estudo:**
-   Neste passo, é realizada uma pesquisa para compreender o objetivo do projeto, os desafios enfrentados e as habilidades necessárias para completar a tarefa.
-   
-    - [Algoritmo de Huffman em C](https://www.youtube.com/playlist?list=PLqJK4Oyr5WShtxF1Ch3Vq4b1Dzzb-WxbP)
-    - [huffman coding](https://www.programiz.com/dsa/huffman-coding)
-    - [Shared Memory](https://www.youtube.com/watch?v=WgVSq-sgHOc&t=367s)
+Neste passo, é realizada uma pesquisa para compreender o objetivo do projeto, os desafios enfrentados e as habilidades necessárias para completar a tarefa.
+
+  - [Algoritmo de Huffman em C](https://www.youtube.com/playlist?list=PLqJK4Oyr5WShtxF1Ch3Vq4b1Dzzb-WxbP)
+  - [huffman coding](https://www.programiz.com/dsa/huffman-coding)
+  - [Shared Memory](https://www.youtube.com/watch?v=WgVSq-sgHOc&t=367s)
 
 - **Fase 2 - Construção das principais estruturas de dados:**
    Nesta etapa, são criadas as estruturas fundamentais para o algoritmo, como a árvore Huffman e o mapa de símbolos.
@@ -85,9 +84,8 @@ Para usar o programa de compactação, use o seguinte comando:
 - **Fase 4 - Compactando / Descompactando:**
    Neste passo, os dados são efetivamente compactados e descompactados. Neste passo, os dados são efetivamente compactados e descompactados. A compactação é feita através da substituição dos símbolos da mensagem original pelos códigos correspondentes na árvore Huffman, enquanto a descompactação é feita através da utilização do mapa de símbolos para recuperar os símbolos originais a partir dos códigos.
 
-- **Fase 5 - Compartilhando memória:** 
+- **Fase 5 - Compartilhando memória:**
 Nesta etapa, o algoritmo é otimizado para compartilhar memória entre as diferentes estruturas de dados. Nesta etapa, o algoritmo é otimizado para compartilhar memória entre as diferentes estruturas de dados, a fim de reduzir o consumo de memória e tornar o algoritmo mais eficiente.
 
-- **Fase 6 - Aplicando Fase 3 e 4 no novo programa:** 
+- **Fase 6 - Aplicando Fase 3 e 4 no novo programa:**
 Neste passo, as funções de codificação e decodificação são aplicadas em um novo programa. Neste passo, as funções de codificação e decodificação são aplicadas em um novo programa que irá utilizar o algoritmo de Huffman para compactar e descompactar dados.
-
