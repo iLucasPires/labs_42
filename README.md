@@ -10,7 +10,7 @@
 
 # Labs 4º Edição
 
-**Obs:** This repository is in portuguese, because it was made for a brazilian school, [42 São Paulo](https://www.42sp.org.br/).
+**Note:** This repository is in portuguese, because it was made for a brazilian school, [42 São Paulo](https://www.42sp.org.br/).
 
 ## Índice
 
